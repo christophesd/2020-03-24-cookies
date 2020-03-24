@@ -63,11 +63,12 @@
             padding: 5px 10px;
             border-radius: 5px;
             font-size: 16px;
+            box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5), inset 0 0 8px rgba(0, 0, 0, 0);
             transition: box-shadow 0.3s;
         }
         button:hover {
             cursor: pointer;
-            box-shadow: 1.5px 1.5px 5px 0px rgba(0, 0, 0, 0.5);
+            box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5), inset 0 0 8px rgba(0, 0, 0, 0.4);
         }
         .c0{
             background-color: #4d526a;
