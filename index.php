@@ -11,7 +11,6 @@
         $color ='c0';
     }
 ?>
-
     
 <!DOCTYPE html>
 <html lang="fr">
@@ -60,6 +59,16 @@
         input[type="radio"]:checked + label {
             box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.25);
         }
+        button {
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: box-shadow 0.3s;
+        }
+        button:hover {
+            cursor: pointer;
+            box-shadow: 1.5px 1.5px 5px 0px rgba(0, 0, 0, 0.5);
+        }
         .c0{
             background-color: #4d526a;
         }
@@ -104,7 +113,7 @@
 
             </div>
 
-            <input type="submit" value="Enregister">
+            <button>Enregister</button>
 
         </form>
     </div>
